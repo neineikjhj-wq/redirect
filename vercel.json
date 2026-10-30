@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://starfall-yepf.onrender.com/$1",
+      "permanent": false
+    }
+  ]
+}
