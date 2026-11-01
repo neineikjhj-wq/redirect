@@ -4,7 +4,6 @@
     {
       "source": "/:path*",
       "destination": "https://starfall-yepf.onrender.com/:path*",
-      "preserveQueryParams": true,
       "statusCode": 302
     }
   ]
