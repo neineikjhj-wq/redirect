@@ -2,6 +2,11 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
     {
+      "source": "/",
+      "destination": "https://starfall-yepf.onrender.com/",
+      "statusCode": 302
+    },
+    {
       "source": "/:path*",
       "destination": "https://starfall-yepf.onrender.com/:path*",
       "statusCode": 302
